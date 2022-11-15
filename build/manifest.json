@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Negative Check",
+    "name": "Negative Checker",
     "description": "Censors out negative texts before sending them.",
     "version": "1.0",
     "icons": {

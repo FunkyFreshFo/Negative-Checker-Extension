@@ -31,15 +31,68 @@ I have created a chrome extensions that measures the negativity level of anythin
 Here's how you can add the extension to your own browser
 
 **Prerequisites**
-- git (for git clone)
 - any browser that supports chrome extensions
 - Chrome
 - Microsoft Edge
 - Brave Browser
 - Opera
 
-**Adding extension**
+**Adding Extension**
 
+1. Download the build folder in the project
+2. Go to your browser's page to manage extensions
+    - Chrome: [chrome://extensions](chrome://extensions)
+    - Edge: [edge://extensions/](edge://extensions/)
+3. Enable developer mode
+4. Click on load unpacked
+5. Select the build folder
+
+Tada! You should see it in your list of extensions.
+
+**Using Extension**
+1. Click on the extension button in your browser, usually located at the top right hand corner
+
+    ![step 1](./documentation//images/steps/1.png)
+
+2. Click on the pin button to add it to your extensions bar
+
+    ![step 2](./documentation//images/steps/2.png)
+
+3. You should now see the extension on your extension bar!
+
+    ![step 3](./documentation//images/steps/3.png)
+
+4. For example, the next time you are sending an email you can use the extension. After typing your email, highlight the text you want to measure.
+
+    ![step 4](./documentation//images/steps/4.png)
+
+5. Click on the extension on your extension bar
+
+    ![step 5](./documentation//images/steps/5.png)
+
+6. A popup should appear
+
+    ![step 6](./documentation//images/steps/6.png)
+
+7. Click on the measure button ensuring that the text you want to measure is still highlighted
+
+    ![step 7](./documentation//images/steps/7.png)
+    
+    As you can see, the text is slightly toxic, has a bit of insult and a little bit of threat. This is not good and we should phrase our setence in a less negative way!
+
+8. Lets try rewritting our email with a less negative tone!
+
+    ![step 8](./documentation//images/steps/8.png)
+
+9. Lets highlight it
+
+    ![step 9](./documentation//images/steps/9.png)
+
+10. Lets run it through the extension again
+
+    ![step 10](./documentation//images/steps/10.png)
+
+    Great! Our email returns 0% on all possible negativity.
 
 # Protoyping Changes
 
@@ -58,3 +111,12 @@ However, upon converting and using it TensorflowJS, I realized that my model is 
 # Documentation
 
 For detailed documentation of each file, [Documentation.md](./documentation.md)
+
+# Aknowledgements
+
+These are the list of resources I have used constantly during the development of this project
+
+- [TensorflowJS API](https://js.tensorflow.org/api/latest/)
+- [Chrome extension development guide](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
+- [Webpack documentation](https://webpack.js.org/)
+- [Tensorflow Models](https://github.com/tensorflow/tfjs-models)
