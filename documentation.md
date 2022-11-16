@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 ```
 
-Next we will create the measure function. The code will be documented with comments for what each line does
+Next, we will create the measure function. The code will be documented with comments on what each line does
 ```
 function measure() {
     // query the active tab and window to the user's current selected item
@@ -76,7 +76,7 @@ function measure() {
 }
 ```
 
-Next we will create the predict function. The code will be documented with comments for what each line does
+Next, we will create the predict function. The code will be documented with comments on what each line does
 ```
 function predict(sentence) {
     // load tensorflow model
@@ -119,7 +119,7 @@ devtool: 'inline-source-map',
 mode: "production",
 ```
 
-Finally run
+Finally, run to build
 ```
 npm run build
 ```

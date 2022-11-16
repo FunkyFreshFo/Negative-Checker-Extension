@@ -13,11 +13,11 @@
 
 # About The Project
 
-In our current timeline where wars and plague outbreaks are happening, we should try not to make the world any more negative. On the internet where things are easier said than taken back, we should ensure that whatever we say are not negative.
+In our current timeline where wars and plague outbreaks are happening, we should try not to make the world any more negative. On the internet where things are easier said than taken back, we should ensure that whatever we say is not negative.
 
 **You might be wondering. How can we be less negative with what we say?**
 
-I have created a chrome extensions that measures the negativity level of anything that the user types through the use of Tensorflow models. Even though it might not detect all negativity due to our constantly evolving slang and language.
+I have created a chrome extension that measures the negativity level of anything that the user types through the use of Tensorflow models. Even though it might not detect all negativity due to our constantly evolving slang and language, every bit helps.
 
 ### Built With
 
@@ -28,7 +28,7 @@ I have created a chrome extensions that measures the negativity level of anythin
 
 # Getting Started
 
-Here's how you can add the extension to your own browser
+Here's how you can add the extension to your browser
 
 **Prerequisites**
 - any browser that supports chrome extensions
@@ -78,17 +78,17 @@ Tada! You should see it in your list of extensions.
 
     ![step 7](./documentation//images/steps/7.png)
     
-    As you can see, the text is slightly toxic, has a bit of insult and a little bit of threat. This is not good and we should phrase our setence in a less negative way!
+    As you can see, the text is slightly toxic and has a bit of insult and a little bit of threat. This is not good and we should phrase our sentences less negatively!
 
-8. Lets try rewritting our email with a less negative tone!
+8. Let's try rewriting our email with a less negative tone!
 
     ![step 8](./documentation//images/steps/8.png)
 
-9. Lets highlight it
+9. Let's highlight it
 
     ![step 9](./documentation//images/steps/9.png)
 
-10. Lets run it through the extension again
+10. Let's run it through the extension again
 
     ![step 10](./documentation//images/steps/10.png)
 
@@ -98,15 +98,15 @@ Tada! You should see it in your list of extensions.
 
 ## Initial Application Idea
 
-Initially, I wanted to create a chrome extension that will block out any negative text on the HTML DOM. I managed to identify all text on a HTML DOM (including lazy loaded and paginated data). However, passing a huge amount of text through a Tensorflow model where predictions take a small amount of time to compute, it slowed down chrome and browsing experience significantly. Therefore, I decided to find another way to implement an application with a similiar idea of measuring negativity.
+Initially, I wanted to create a chrome extension that will block out any negative text on the HTML DOM. I managed to identify all text on an HTML DOM (including lazy loaded and paginated data). However, passing a huge amount of text through a Tensorflow model where predictions take a small amount of time to compute, slowed down chrome and browsing experience significantly. Therefore, I decided to find another way to implement an application with a similar idea of measuring negativity.
 
 ## Tensorflow Model
 
 From my research, Tensorflow supports using models in Node.js and this is crucial for creating a chrome extension that uses a machine learning model. Therefore, I decided to go with Tensorflow.
 
-Initially I found my own data set, wrote a script for preparing data for training, and wrote and trained my own text classifier model in python.
+Initially, I found my own data set, wrote a script for preparing data for training, and wrote and trained my own text classifier model in python.
 
-However, upon converting and using it TensorflowJS, I realized that my model is no where are accurate or as fast as the model developed by Tensorflow. Therefore I decided to go with the TensorflowHub model.
+However, upon converting and using TensorflowJS, I realized that my model is nowhere as accurate or as fast as the model developed by Tensorflow. Therefore I decided to go with the TensorflowHub model.
 
 # Documentation
 
