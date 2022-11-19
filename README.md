@@ -1,7 +1,7 @@
 
 # NEGATIVITY CHECKER
 
-#### Video Demo: <URL HERE>
+#### Video Demo: https://www.youtube.com/watch?v=O--VKX8odq8
 
 #### Description
 
